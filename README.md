@@ -46,7 +46,7 @@ The required Python packages are listed in `requirements.txt`:
    ```bash
    gcloud functions deploy process_file \
      --runtime python39 \
-     --trigger-resource YOUR_BUCKET_NAME \
+     --trigger-resource luisbcketcarlos \
      --trigger-event google.storage.object.finalize \
      --entry-point process_file \
      --source . \
